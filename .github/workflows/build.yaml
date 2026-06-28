@@ -44,4 +44,4 @@ jobs:
       - name: Commit and push
         run: |
           git commit -m "Updated stats" || echo "Nothing to commit"
-          git push origin main || echo "Push failed"
+          git push origin laughingman || echo "Push failed"
