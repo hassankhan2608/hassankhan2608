@@ -98,12 +98,12 @@
 <text x="400" y="240" fill="#24292f">
   <tspan x="400" y="240" class="key">Languages &amp; Tools</tspan>:
   <tspan x="400" y="260">———————————————————</tspan>
-  <tspan x="400" y="280" class="val">Python, R, SQL, TypeScript</tspan><tspan class="cmt"> #Langs</tspan>
-  <tspan x="400" y="300" class="val">React, Next.js, Node.js, Express, FastAPI</tspan><tspan class="cmt"> #Web</tspan>
+  <tspan x="400" y="280" class="val">Python, R, SQL, TypeScript, TailwindCSS</tspan><tspan class="cmt"> #Langs</tspan>
+  <tspan x="400" y="300" class="val">React, Next.js, Node.js, Express, GraphQL</tspan><tspan class="cmt"> #Web</tspan>
   <tspan x="400" y="320" class="val">TensorFlow, PyTorch, Scikit-learn, NLP</tspan><tspan class="cmt"> #ML</tspan>
-  <tspan x="400" y="340" class="val">Pandas, NumPy, PySpark, Power BI, Tableau</tspan><tspan class="cmt"> #Data</tspan>
-  <tspan x="400" y="360" class="val">PostgreSQL, MongoDB, Redis, Docker, AWS</tspan><tspan class="cmt"> #Infra</tspan>
-  <tspan x="400" y="380" class="val">English, Hindi</tspan><tspan class="cmt"> #Langs</tspan>
+  <tspan x="400" y="340" class="val">Pandas, NumPy, PySpark, Kafka, Airflow</tspan><tspan class="cmt"> #Data</tspan>
+  <tspan x="400" y="360" class="val">PostgreSQL, MongoDB, Redis, Elasticsearch</tspan><tspan class="cmt"> #DB</tspan>
+  <tspan x="400" y="380" class="val">Docker, AWS, Kubernetes, Git, Power BI</tspan><tspan class="cmt"> #Infra</tspan>
 </text>
 
 <text x="20" y="410" fill="#24292f">
@@ -118,9 +118,9 @@
 <text x="400" y="410" fill="#24292f">
   <tspan x="400" y="410" class="key">GitHub Stats</tspan>:
   <tspan x="400" y="430">————————————</tspan>
-  <tspan x="400" y="450" class="key">Repos</tspan>: <tspan class="val">67</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">54</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">16</tspan>
-  <tspan x="400" y="470" class="key">Commits</tspan>: <tspan class="val">5111</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">82</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">319</tspan>
-  <tspan x="400" y="490" class="key">Lines of Code</tspan>: <tspan class="val">7517260</tspan> (<tspan class="add">5275712++</tspan>, <tspan class="del">2241548--</tspan>)
+  <tspan x="400" y="450" class="key">Repos</tspan>: <tspan class="val">0</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">0</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">0</tspan>
+  <tspan x="400" y="470" class="key">Commits</tspan>: <tspan class="val">2630</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">9</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">9</tspan>
+  <tspan x="400" y="490" class="key">Lines of Code</tspan>: <tspan class="val">0</tspan> (<tspan class="add">0++</tspan>, <tspan class="del">0--</tspan>)
 </text>
 
 </svg>

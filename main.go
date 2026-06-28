@@ -324,12 +324,12 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 <text x="400" y="240" fill="%s">
   <tspan x="400" y="240" class="key">Languages &amp; Tools</tspan>:
   <tspan x="400" y="260">———————————————————</tspan>
-  <tspan x="400" y="280" class="val">Python, R, SQL, TypeScript</tspan><tspan class="cmt"> #Langs</tspan>
-  <tspan x="400" y="300" class="val">React, Next.js, Node.js, Express, FastAPI</tspan><tspan class="cmt"> #Web</tspan>
+  <tspan x="400" y="280" class="val">Python, R, SQL, TypeScript, TailwindCSS</tspan><tspan class="cmt"> #Langs</tspan>
+  <tspan x="400" y="300" class="val">React, Next.js, Node.js, Express, GraphQL</tspan><tspan class="cmt"> #Web</tspan>
   <tspan x="400" y="320" class="val">TensorFlow, PyTorch, Scikit-learn, NLP</tspan><tspan class="cmt"> #ML</tspan>
-  <tspan x="400" y="340" class="val">Pandas, NumPy, PySpark, Power BI, Tableau</tspan><tspan class="cmt"> #Data</tspan>
-  <tspan x="400" y="360" class="val">PostgreSQL, MongoDB, Redis, Docker, AWS</tspan><tspan class="cmt"> #Infra</tspan>
-  <tspan x="400" y="380" class="val">English, Hindi</tspan><tspan class="cmt"> #Langs</tspan>
+  <tspan x="400" y="340" class="val">Pandas, NumPy, PySpark, Kafka, Airflow</tspan><tspan class="cmt"> #Data</tspan>
+  <tspan x="400" y="360" class="val">PostgreSQL, MongoDB, Redis, Elasticsearch</tspan><tspan class="cmt"> #DB</tspan>
+  <tspan x="400" y="380" class="val">Docker, AWS, Kubernetes, Git, Power BI</tspan><tspan class="cmt"> #Infra</tspan>
 </text>
 
 <text x="20" y="410" fill="%s">
