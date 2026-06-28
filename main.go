@@ -278,10 +278,9 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 
 	fieldText := "Full Stack Developer & Data Scientist"
 	typingSpans := buildTypingAnimation(fieldText, valueColor)
-	cursorX := 467 + len(fieldText)*9
 
 	svg := fmt.Sprintf(`<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','Cascadia Code','Courier New',monospace" width="910px" height="610px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','Cascadia Code','Courier New',monospace" width="910px" height="600px" font-size="16px">
 <style>
   .key {fill: %s;}
   .val {fill: %s;}
@@ -291,7 +290,7 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
   text, tspan {white-space: pre;}
 </style>
 
-<rect width="910" height="570" fill="%s" rx="15"/>
+<rect width="910" height="560" fill="%s" rx="15"/>
 
 <foreignObject x="10" y="0" width="400" height="380">
   <body xmlns="http://www.w3.org/1999/xhtml">
@@ -307,12 +306,7 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
   <tspan x="400" y="90" class="key">Location</tspan>: <tspan class="val">Mumbai, India</tspan>
   <tspan x="400" y="110" class="key">Field</tspan>:
 </text>
-%s<text x="%d" y="110" fill="%s">
-  <tspan class="val">
-    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite" begin="%s"/>
-    |
-  </tspan>
-</text>
+%s
 <text x="400" y="130" fill="%s">
   <tspan x="400" y="130" class="key">Editor</tspan>: <tspan class="val">Neovim, VS Code, nano, Jupyter</tspan>
   <tspan x="400" y="150" class="cmt"># neofetch</tspan>
@@ -333,21 +327,22 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
   <tspan x="400" y="400" class="val">AI, RAG, Vector Search, LangChain, LLMs</tspan><tspan class="cmt"> #AI</tspan>
 </text>
 
-<text x="20" y="440" fill="%s">
-  <tspan x="20" y="440" class="key">Contact</tspan>:
-  <tspan x="20" y="460">———————</tspan>
-  <tspan x="20" y="480" class="key">Email</tspan>: <tspan class="val">hassankhan2608@gmail.com</tspan>
-  <tspan x="20" y="500" class="key">LinkedIn</tspan>: <tspan class="val">/in/hassankhan2608</tspan>
-  <tspan x="20" y="520" class="key">X</tspan>: <tspan class="val">@hassankhan2608</tspan>
-  <tspan x="20" y="540" class="key">Web</tspan>: <tspan class="val">laughingman.is-a.dev</tspan>
+<text x="20" y="430" fill="%s">
+  <tspan x="20" y="430" class="key">Contact</tspan>:
+  <tspan x="20" y="450">———————</tspan>
+  <tspan x="20" y="470" class="key">Email</tspan>: <tspan class="val">hassankhan2608@gmail.com</tspan>
+  <tspan x="20" y="490" class="key">LinkedIn</tspan>: <tspan class="val">/in/hassankhan2608</tspan>
+  <tspan x="20" y="510" class="key">X</tspan>: <tspan class="val">@hassankhan2608</tspan>
+  <tspan x="20" y="530" class="key">Web</tspan>: <tspan class="val">laughingman.is-a.dev</tspan>
 </text>
 
-<text x="400" y="440" fill="%s">
-  <tspan x="400" y="440" class="key">GitHub Stats</tspan>:
-  <tspan x="400" y="460">————————————</tspan>
-  <tspan x="400" y="480" class="key">Repos</tspan>: <tspan class="val">%s</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">%s</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">%s</tspan>
-  <tspan x="400" y="500" class="key">Commits</tspan>: <tspan class="val">%s</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">%s</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">%s</tspan>
-  <tspan x="400" y="520" class="key">Lines of Code</tspan>: <tspan class="val">%s</tspan> (<tspan class="add">%s++</tspan>, <tspan class="del">%s--</tspan>)
+<text x="400" y="430" fill="%s">
+  <tspan x="400" y="430" class="key">GitHub Stats</tspan>:
+  <tspan x="400" y="450">————————————</tspan>
+  <tspan x="400" y="470" class="key">Repos</tspan>: <tspan class="val">%s</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">%s</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">%s</tspan>
+  <tspan x="400" y="490" class="key">Commits</tspan>: <tspan class="val">%s</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">%s</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">%s</tspan>
+  <tspan x="400" y="510" class="key">Followers</tspan>: <tspan class="val">%s</tspan>
+  <tspan x="400" y="530" class="key">Lines of Code</tspan>: <tspan class="val">%s</tspan> (<tspan class="add">%s++</tspan>, <tspan class="del">%s--</tspan>)
 </text>
 
 </svg>`,
@@ -356,10 +351,10 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 		asciiClr, arch,
 		textColor,
 		typingSpans,
-		cursorX, textColor, fmt.Sprintf("%.2fs", float64(len(fieldText))*0.07+0.5),
 		textColor, textColor, textColor, textColor,
 		stats["repos"], stats["ownRepos"], stats["stars"],
 		stats["commits"], stats["issues"], stats["prs"],
+		stats["followers"],
 		stats["loc"], stats["add"], stats["del"],
 	)
 
