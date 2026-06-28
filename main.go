@@ -247,10 +247,11 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 		addColor   string
 		delColor   string
 		asciiClr   string
+		glowColor  string
 	)
 
 	if dark {
-		bgColor = "#0d1117"
+		bgColor = "#161b22"
 		textColor = "#c9d1d9"
 		keyColor = "#ffa657"
 		valueColor = "#a5d6ff"
@@ -258,15 +259,16 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 		addColor = "#3fb950"
 		delColor = "#f85149"
 		asciiClr = "#7aa2f7"
+		glowColor = "#7aa2f7"
 	} else {
-		bgColor = "#ffffff"
+		bgColor = "#f6f8fa"
 		textColor = "#24292f"
-		keyColor = "#cf5e2c"
-		valueColor = "#0550ae"
+		keyColor = "#953800"
+		valueColor = "#0a3069"
 		commentClr = "#6e7781"
 		addColor = "#1a7f37"
 		delColor = "#cf222e"
-		asciiClr = "#0550ae"
+		asciiClr = "#0a3069"
 	}
 
 	archBytes, err := os.ReadFile("arch.txt")
@@ -278,6 +280,23 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 
 	fieldText := "Full Stack Developer & Data Scientist"
 	typingSpans := buildTypingAnimation(fieldText, valueColor)
+
+	glowBlock := ""
+	if dark {
+		glowBlock = fmt.Sprintf(`
+<defs>
+  <radialGradient id="glowTL" cx="20%%" cy="15%%" r="40%%">
+    <stop offset="0%%" stop-color="%s" stop-opacity="0.10"/>
+    <stop offset="100%%" stop-color="%s" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glowBR" cx="85%%" cy="85%%" r="40%%">
+    <stop offset="0%%" stop-color="%s" stop-opacity="0.20"/>
+    <stop offset="100%%" stop-color="%s" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="910" height="560" fill="url(#glowTL)" rx="15"/>
+<rect width="910" height="560" fill="url(#glowBR)" rx="15"/>`, glowColor, bgColor, glowColor, bgColor)
+	}
 
 	svg := fmt.Sprintf(`<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','Cascadia Code','Courier New',monospace" width="910px" height="600px" font-size="16px">
@@ -291,6 +310,7 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 </style>
 
 <rect width="910" height="560" fill="%s" rx="15"/>
+%s
 
 <foreignObject x="10" y="0" width="400" height="380">
   <body xmlns="http://www.w3.org/1999/xhtml">
@@ -347,7 +367,7 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
 
 </svg>`,
 		keyColor, valueColor, addColor, delColor, commentClr,
-		bgColor,
+		bgColor, glowBlock,
 		asciiClr, arch,
 		textColor,
 		typingSpans,
