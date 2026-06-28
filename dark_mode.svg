@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code','Cascadia Code','Courier New',monospace" width="910px" height="580px" font-size="16px">
+<style>
+  .key {fill: #ffa657;}
+  .val {fill: #a5d6ff;}
+  .add {fill: #3fb950;}
+  .del {fill: #f85149;}
+  .cmt {fill: #8b949e;}
+  text, tspan {white-space: pre;}
+</style>
+
+<rect width="910" height="540" fill="#0d1117" rx="15"/>
+
+<foreignObject x="10" y="0" width="400" height="380">
+  <body xmlns="http://www.w3.org/1999/xhtml">
+    <pre style="font-size: 14px; line-height: 1.15; letter-spacing: 0; color: #7aa2f7;">
+                   A
+                  /#\
+                 /###\
+                /#####\
+               /#######\
+              _ "=######\
+             /##=,_\#####\
+            /#############\
+           /###############\
+          /#################\
+         /###################\
+        /########*"""*########\
+       /#######/       \#######\
+      /########         ########\
+     /#########         ######m=,_
+    /##########         ##########\
+   /######***             ***######\
+  /###**                       **###\
+ /**                               **\
+    </pre>
+  </body>
+</foreignObject>
+
+<text x="400" y="30" fill="#c9d1d9">
+  <tspan x="400" y="30">laughingman@arch</tspan>
+  <tspan x="400" y="50">—————————————————————</tspan>
+  <tspan x="400" y="70" class="key">Name</tspan>: <tspan class="val">Mohd Hassan Khan</tspan>
+  <tspan x="400" y="90" class="key">Location</tspan>: <tspan class="val">Mumbai, India</tspan>
+  <tspan x="400" y="110" class="key">Field</tspan>:
+</text>
+  <text x="467" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.00s"/>F</tspan></text>
+  <text x="476" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.07s"/>u</tspan></text>
+  <text x="485" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.14s"/>l</tspan></text>
+  <text x="494" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.21s"/>l</tspan></text>
+  <text x="503" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.28s"/> </tspan></text>
+  <text x="512" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.35s"/>S</tspan></text>
+  <text x="521" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.42s"/>t</tspan></text>
+  <text x="530" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.49s"/>a</tspan></text>
+  <text x="539" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.56s"/>c</tspan></text>
+  <text x="548" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.63s"/>k</tspan></text>
+  <text x="557" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.70s"/> </tspan></text>
+  <text x="566" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.77s"/>D</tspan></text>
+  <text x="575" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.84s"/>e</tspan></text>
+  <text x="584" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.91s"/>v</tspan></text>
+  <text x="593" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="0.98s"/>e</tspan></text>
+  <text x="602" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.05s"/>l</tspan></text>
+  <text x="611" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.12s"/>o</tspan></text>
+  <text x="620" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.19s"/>p</tspan></text>
+  <text x="629" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.26s"/>e</tspan></text>
+  <text x="638" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.33s"/>r</tspan></text>
+  <text x="647" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.40s"/> </tspan></text>
+  <text x="656" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.47s"/>&amp;</tspan></text>
+  <text x="665" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.54s"/> </tspan></text>
+  <text x="674" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.61s"/>D</tspan></text>
+  <text x="683" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.68s"/>a</tspan></text>
+  <text x="692" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.75s"/>t</tspan></text>
+  <text x="701" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.82s"/>a</tspan></text>
+  <text x="710" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.89s"/> </tspan></text>
+  <text x="719" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="1.96s"/>S</tspan></text>
+  <text x="728" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.03s"/>c</tspan></text>
+  <text x="737" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.10s"/>i</tspan></text>
+  <text x="746" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.17s"/>e</tspan></text>
+  <text x="755" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.24s"/>n</tspan></text>
+  <text x="764" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.31s"/>t</tspan></text>
+  <text x="773" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.38s"/>i</tspan></text>
+  <text x="782" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.45s"/>s</tspan></text>
+  <text x="791" y="110" fill="#a5d6ff"><tspan class="val"><animate attributeName="opacity" values="0;1" dur="0.01s" fill="freeze" begin="2.52s"/>t</tspan></text>
+<text x="800" y="110" fill="#c9d1d9">
+  <tspan class="val">
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite" begin="3.09s"/>
+    |
+  </tspan>
+</text>
+<text x="400" y="130" fill="#c9d1d9">
+  <tspan x="400" y="130" class="key">Editor</tspan>: <tspan class="val">Neovim, VS Code, nano, Jupyter</tspan>
+  <tspan x="400" y="150" class="cmt"># neofetch</tspan>
+  <tspan x="400" y="170" class="key">OS</tspan>: <tspan class="val">Arch Linux x86_64</tspan>
+  <tspan x="400" y="190" class="key">Shell</tspan>: <tspan class="val">zsh</tspan>
+  <tspan x="400" y="210" class="key">DE</tspan>: <tspan class="val">Hyprland</tspan>
+</text>
+
+<text x="400" y="240" fill="#c9d1d9">
+  <tspan x="400" y="240" class="key">Languages &amp; Tools</tspan>:
+  <tspan x="400" y="260">———————————————————</tspan>
+  <tspan x="400" y="280" class="val">Python, R, SQL, TypeScript</tspan><tspan class="cmt"> #Langs</tspan>
+  <tspan x="400" y="300" class="val">React, Next.js, Node.js, Express, FastAPI</tspan><tspan class="cmt"> #Web</tspan>
+  <tspan x="400" y="320" class="val">TensorFlow, PyTorch, Scikit-learn, NLP</tspan><tspan class="cmt"> #ML</tspan>
+  <tspan x="400" y="340" class="val">Pandas, NumPy, PySpark, Power BI, Tableau</tspan><tspan class="cmt"> #Data</tspan>
+  <tspan x="400" y="360" class="val">PostgreSQL, MongoDB, Redis, Docker, AWS</tspan><tspan class="cmt"> #Infra</tspan>
+  <tspan x="400" y="380" class="val">English, Hindi</tspan><tspan class="cmt"> #Langs</tspan>
+</text>
+
+<text x="20" y="410" fill="#c9d1d9">
+  <tspan x="20" y="410" class="key">Contact</tspan>:
+  <tspan x="20" y="430">———————</tspan>
+  <tspan x="20" y="450" class="key">Email</tspan>: <tspan class="val">hassankhan2608@gmail.com</tspan>
+  <tspan x="20" y="470" class="key">LinkedIn</tspan>: <tspan class="val">/in/hassankhan2608</tspan>
+  <tspan x="20" y="490" class="key">X</tspan>: <tspan class="val">@hassankhan2608</tspan>
+  <tspan x="20" y="510" class="key">Web</tspan>: <tspan class="val">laughingman.is-a.dev</tspan>
+</text>
+
+<text x="400" y="410" fill="#c9d1d9">
+  <tspan x="400" y="410" class="key">GitHub Stats</tspan>:
+  <tspan x="400" y="430">————————————</tspan>
+  <tspan x="400" y="450" class="key">Repos</tspan>: <tspan class="val">67</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">54</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">16</tspan>
+  <tspan x="400" y="470" class="key">Commits</tspan>: <tspan class="val">5111</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">82</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">319</tspan>
+  <tspan x="400" y="490" class="key">Lines of Code</tspan>: <tspan class="val">7517260</tspan> (<tspan class="add">5275712++</tspan>, <tspan class="del">2241548--</tspan>)
+</text>
+
+</svg>
