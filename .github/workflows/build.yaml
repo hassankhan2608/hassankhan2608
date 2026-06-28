@@ -30,7 +30,7 @@ jobs:
 
       - name: Check for changes
         run: |
-          git add light_mode.svg dark_mode.svg cache.json
+          git add light_mode.svg dark_mode.svg
           if git diff --cached --exit-code; then
             echo "No changes to commit"
             exit 0
