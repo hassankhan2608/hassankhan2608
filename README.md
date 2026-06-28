@@ -15,10 +15,12 @@
 
 ![](https://komarev.com/ghpvc/?username=hassankhan2608&color=0e75b6&style=for-the-badge)
 
-**Visual Stuff**
+<details>
+<summary><b>Visual Stuff</b></summary>
 
 [![](https://github-readme-streak-stats.herokuapp.com/?user=hassankhan2608&theme=tokyonight&hide_border=true)](https://github.com/denvercoder1/github-readme-streak-stats)
 [![](https://github-readme-stats.vercel.app/api?username=hassankhan2608&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
 
-[![](https://github-readme-stats.vercel.app/api/top-langs/?username=hassankhan2608&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 [![](https://github-profile-trophy.vercel.app/?username=hassankhan2608&theme=tokyonight&row=2&column=3&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+
+</details>
