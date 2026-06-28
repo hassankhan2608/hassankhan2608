@@ -1,8 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-  <img src="light_mode.svg" alt="hassankhan2608">
+  <img src="light_mode.svg" alt="hassankhan2608" width="100%">
 </picture>
-
 ---
 
 **Quick Links**
