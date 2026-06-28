@@ -119,9 +119,9 @@
 <text x="400" y="440" fill="#24292f">
   <tspan x="400" y="440" class="key">GitHub Stats</tspan>:
   <tspan x="400" y="460">————————————</tspan>
-  <tspan x="400" y="480" class="key">Repos</tspan>: <tspan class="val">0</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">0</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">0</tspan>
-  <tspan x="400" y="500" class="key">Commits</tspan>: <tspan class="val">2631</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">9</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">9</tspan>
-  <tspan x="400" y="520" class="key">Lines of Code</tspan>: <tspan class="val">0</tspan> (<tspan class="add">0++</tspan>, <tspan class="del">0--</tspan>)
+  <tspan x="400" y="480" class="key">Repos</tspan>: <tspan class="val">67</tspan> {<tspan class="key">Own</tspan>: <tspan class="val">54</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="val">16</tspan>
+  <tspan x="400" y="500" class="key">Commits</tspan>: <tspan class="val">5120</tspan> | <tspan class="key">Issues</tspan>: <tspan class="val">82</tspan> | <tspan class="key">PRs</tspan>: <tspan class="val">319</tspan>
+  <tspan x="400" y="520" class="key">Lines of Code</tspan>: <tspan class="val">7517260</tspan> (<tspan class="add">5275712++</tspan>, <tspan class="del">2241548--</tspan>)
 </text>
 
 </svg>
