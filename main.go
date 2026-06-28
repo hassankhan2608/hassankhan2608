@@ -331,7 +331,7 @@ func generateSVG(filename string, stats map[string]string, dark bool) {
   <tspan x="20" y="430" class="key">Contact</tspan>:
   <tspan x="20" y="450">———————</tspan>
   <tspan x="20" y="470" class="key">Email</tspan>: <tspan class="val">hassankhan2608@gmail.com</tspan>
-  <tspan x="20" y="490" class="key">LinkedIn</tspan>: <tspan class="val">/in/hassankhan2608</tspan>
+  <tspan x="20" y="490" class="key">LinkedIn</tspan>: <tspan class="val">hassankhan2608</tspan>
   <tspan x="20" y="510" class="key">X</tspan>: <tspan class="val">@hassankhan2608</tspan>
   <tspan x="20" y="530" class="key">Web</tspan>: <tspan class="val">laughingman.is-a.dev</tspan>
 </text>
